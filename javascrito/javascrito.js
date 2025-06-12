@@ -37,7 +37,7 @@ telaPintar.onmouseup = function() {
 var telaAlvo = document.getElementById('canvasAlvo');
 var pincelAlvo = telaAlvo.getContext('2d');
 
-pincelAlvo.fillStyle = 'lightgray';
+pincelAlvo.fillStyle = 'blue';
 pincelAlvo.fillRect(0, 0, 600, 400);
 
 var raio = 10;
